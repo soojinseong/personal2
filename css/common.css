@@ -1,0 +1,12 @@
+.padding100{
+}
+.h2{
+  font-size: 33px;
+}
+.p{
+  font-size: 10px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}

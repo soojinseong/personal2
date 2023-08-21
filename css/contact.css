@@ -1,0 +1,170 @@
+#contact{
+  background-color: #f6ebeb;
+}
+#contact .wrap{
+  /*! background-image: url(../img/cpfl.jpg); */
+  /*! padding: 100px 0; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*! height: 1000px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+#contact .wrap h4{
+  font-size: 26px;
+  padding-left: 100px;
+  text-align: center;
+  font-size: 45px;
+  border: 3px solid #000001;
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+}
+#contact .wrap > p.C{
+  border: 3px solid #000001;
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 20px;
+  border-left: 0 !important;
+  width: 1400px;
+  height: 100px;
+  background-color: #fff;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+#contact .wrap h4 p{
+  
+}
+
+/*
+    Auther: Abdelrhman Said
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+#contact * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contact *:focus,
+#contact *:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#contact html,
+#contact body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+
+#contact .wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+#contact .wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#contact .wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#contact .wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#contact .wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+#contact .wrapper .icon:hover span,
+#contact .wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+#contact .wrapper .facebook:hover,
+#contact .wrapper .facebook:hover .tooltip,
+#contact .wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+#contact .wrapper .twitter:hover,
+#contact .wrapper .twitter:hover .tooltip,
+#contact .wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+#contact .wrapper .instagram:hover,
+#contact .wrapper .instagram:hover .tooltip,
+#contact .wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+#contact .wrapper .github:hover,
+#contact .wrapper .github:hover .tooltip,
+#contact .wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+#contact .wrapper .youtube:hover,
+#contact .wrapper .youtube:hover .tooltip,
+#contact .wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}

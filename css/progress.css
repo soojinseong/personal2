@@ -1,0 +1,57 @@
+#skill .wrap ul.progress {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  gap: 20px;
+  border: 3px solid #000001;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-bottom: 0 !important;
+  width: 1600px;
+  padding: 20px;
+  background-color: #fff;
+}
+#skill .wrap ul.progress > li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #93A2AC;
+  font-weight: 100;
+  margin: 2rem;
+}
+#skill .wrap ul.progress > li:before {
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: 400;
+}
+#skill .wrap ul.progress > li:after {
+  content: attr(data-percent);/*  attr갑(속성명)은 속성의 값을 가져오는 명령  */
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+#skill .wrap ul.progress svg {
+  width: 10rem;
+  height: 10rem;
+}
+#skill .wrap ul.progress svg:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(-90deg);
+}
+#skill .wrap ul.progress svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 25;
+  stroke-dasharray: 629;
+  stroke: #fff;
+  opacity: 0.9;
+  -webkit-animation: load 10s;
+          animation: load 10s;
+}
