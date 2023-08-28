@@ -3,15 +3,13 @@
   --primary-color: #c32125;
   --secondary-color: #f6ebeb;
 }
-
 *,
 *:after,
-*:before {
+*:before,{
   box-sizing: border-box;
 }
-
 body {
-  background-color: rgba(230, 238, 249, 0.5);
+  background-color: #f6ebeb;
 }
 
 .container {
@@ -23,16 +21,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 150px;
 }
 
-.tabs {
+.container .tabs {
   display: flex;
   position: relative;
   background-color: #fff;
   box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
   padding: 0.75rem;
   border-radius: 99px;
-  top: 0px;
+  align-items: center;
 }
 .tabs #radio-1{
   

@@ -21,11 +21,12 @@
   border-collapse: collapse;
   border-spacing: 0;
   padding: 20px;
-  width: 200px;
+  width: 1600px;
   height: 100px;
   background-color: #fff;
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 #contact .wrap > p.C{
   border: 3px solid #000001;
@@ -94,6 +95,9 @@
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#contact .wrapper .icon.mail {
+  
 }
 
 #contact .wrapper .tooltip {
@@ -167,4 +171,65 @@
 #contact .wrapper .youtube:hover .tooltip::before {
   background: #CD201F;
   color: #ffffff;
+}
+#contact .wrapper .mail:hover,
+#contact .wrapper .mail:hover .tooltip,
+#contact .wrapper .mail:hover .tooltip::before {
+  background: #03C75A;
+  color: #ffffff;
+  
+}
+#contact .wrapper .kakao:hover,
+#contact .wrapper .kakao:hover .tooltip,
+#contact .wrapper .kakao:hover .tooltip::before {
+  background: #FAE100;
+  color: #ffffff;
+}
+#contact .wrapper .call:hover,
+#contact .wrapper .call:hover .tooltip,
+#contact .wrapper .call:hover .tooltip::before {
+  background: #24FF24;
+  color: #ffffff;
+}
+#contact .wrapper i.fa-mail{
+  background-image: url(../img/mail.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+#contact .wrapper i.fa-mail:hover{
+  background-image: url(../img/f-mail.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+#contact .wrapper i.fa-kakao{
+  background-image: url(../img/kakao.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+#contact .wrapper i.fa-kakao:hover{
+  background-image: url(../img/f-kakao.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+#contact .wrapper i.fa-call{
+  background-image: url(../img/call.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+#contact .wrapper i.fa-call:hover{
+  background-image: url(../img/f-call.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
 }
