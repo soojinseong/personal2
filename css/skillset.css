@@ -1,7 +1,7 @@
 #skill body{
 }
 #skill .skillset{
-  border: 3px solid #000001;
+  border: 3px solid #f3d4d4;
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-bottom-color: rgb(0, 0, 1);
@@ -11,16 +11,18 @@
   padding: 20px;
   width: 1600px;
   background-color: #fff;
+  display: flex;
 }
 #skill .skillset h1{
   
   font-size: 30px;
 }
 #skill .skillset .Skill{
-  width: 800px;
+  width: 750px;
 }
 #skill .skillset .Tools{
-  width: 800px;
+  width: 750px;
+  margin-left: 50px;
 }
 @keyframes load{
   from {
@@ -55,7 +57,7 @@
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #f3b0ff;
+  background-color: #f3d4d4;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -66,10 +68,10 @@
 }
 
 .bar.front::before{
-  background-color: #ffcc33;
+  background-color: #c32125;
 }
 .bar.back::before{
-  background-color: #a6cfe3;
+  background-color: #c32125;
 }
 .bar.learning::before{
   width: calc(20% - 10px);

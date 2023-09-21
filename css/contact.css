@@ -17,7 +17,7 @@
   padding-left: 100px;
   text-align: center;
   font-size: 45px;
-  border: 3px solid #000001;
+  border: 3px solid #f3d4d4;
   border-collapse: collapse;
   border-spacing: 0;
   padding: 20px;
@@ -198,7 +198,7 @@
   width: 20px;
   height: 20px;
 }
-#contact .wrapper i.fa-mail:hover{
+#contact .wrapper .mail:hover i.fa-mail{
   background-image: url(../img/f-mail.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,7 +212,7 @@
   width: 20px;
   height: 20px;
 }
-#contact .wrapper i.fa-kakao:hover{
+#contact .wrapper .kakao:hover i.fa-kakao{
   background-image: url(../img/f-kakao.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,7 +226,7 @@
   width: 20px;
   height: 20px;
 }
-#contact .wrapper i.fa-call:hover{
+#contact .wrapper .call:hover i.fa-call{
   background-image: url(../img/f-call.svg);
   background-repeat: no-repeat;
   background-size: cover;
